@@ -478,6 +478,7 @@ class ModeSwapCallback(Callback):
             self.is_frozen = False
             trainer.optimizers = [pl_module.configure_opt_model()]
 
+
 if __name__ == "__main__":
     # custom parser to specify config files, train, test and debug mode,
     # postfix, resume.
